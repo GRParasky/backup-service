@@ -4,13 +4,6 @@ from tkinter import filedialog as fs
 
 file_path = str()
 
-def service_folder():
-    file_path = fs.askdirectory()
-    print(file_path)
-
-def exit_program():
-    exit()
-
 
 root = tk.Tk()
 app_width = 800
